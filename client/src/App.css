@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+/* HEADER CSS */
+.nav-ul {
+  padding: 0;
+  margin: 0;
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.nav-ul li a {
+  color: white;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+.nav-ul li a:hover {
+  color: beige;
+}
+.nav-ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+/* FOOTER CSS */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #282c34;
+}
+.footer h2 {
+  color: white;
+
+  text-align: center;
+}
+
+/* SIGN UP CSS */
+
+.signup {
+  display: block;
+  max-width: 70%;
+  margin: 0 auto;
+}
+.signupForm input {
+  display: block;
+  margin: 0 auto !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  width: 75%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 0;
+  border: 1px solid cadetblue;
+  border-radius: 0.6rem;
+  
+}
+.signupForm h1 {
+  font-size: 1.8rem;
+  margin-top: 1rem !important;
+  margin:0 auto;
+  font-weight: 500;
+  color: white;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 0.3rem;
+  border: 1px solid chocolate;
+  border-radius: 0.3rem;
+  background-color: #282c34;
+}
