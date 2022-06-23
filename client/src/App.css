@@ -56,12 +56,11 @@
   padding-right: 0;
   border: 1px solid cadetblue;
   border-radius: 0.6rem;
-  
 }
 .signupForm h1 {
   font-size: 1.8rem;
   margin-top: 1rem !important;
-  margin:0 auto;
+  margin: 0 auto;
   font-weight: 500;
   color: white;
   width: 50%;
@@ -70,4 +69,18 @@
   border: 1px solid chocolate;
   border-radius: 0.3rem;
   background-color: #282c34;
+}
+
+/* LOG IN CSS */
+
+.login {
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+}
+.form input {
+  display: flex;
+  width: 100%;
+  padding: 0.4rem;
+  margin-bottom: 0.8rem;
 }
